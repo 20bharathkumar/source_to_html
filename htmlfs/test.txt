@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+#include "event.h"
+#define MAC 'A'
+#define MAC_L 100
+#define SIZE (sizeof(int))
+/* this is multi-line comment */
+typedef enum
+{
+    PSTATE_IDLE,
+    PSTATE_PREPROCESSOR_DIRECTIVE,
+    PSTATE_SUB_PREPROCESSOR_MAIN,
+}event;
+int main()
+{
+int mai = 123456;
+char ch = 'a';
+int maii = 0x123456;
+int ar[5] = {10,20,30};
+int arr[ 100 ];
+int size = (sizeof(int));
+for(int j = 0; k < 50; l++)
+{
+    printf("Hello");
+}
+if(argc > 2)
+	{
+		printf("\nError ! please enter file name and mode\n");
+		printf("Usage:   \n");
+		printf("Example : ./a.out abc.txt\n\n");
+		return 1;
+	}
+}
